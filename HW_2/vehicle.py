@@ -13,7 +13,7 @@ class Vehicle:
         pass
 
     def __repr__(self):
-        return f"Транспортное средство {self.company}, '{self.model}', {self.yearRelease}, {self.numWheel},{self.speed}"
+        return f"Транспортное средство {self.company}, '{self.model}', {self.yearRelease}, {self.numWheel}, {self.speed}"
 
 
 class Car(Vehicle):

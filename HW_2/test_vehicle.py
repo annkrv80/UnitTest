@@ -6,11 +6,7 @@ class TestVehicle(unittest.TestCase):
         self.vehicle_1 = Car('Nissan', 'Super', 2019)
         self.vehicle_2 = Motorcycle('Honda', 'XXL', 2015)
 
-        #vehicle_1.testDrive()
-        #vehicle_2.testDrive()
-        #vehicle_1.park()
-        #vehicle_2.park()
-
+    
     def test_car_instance_is_vehicle_instance(self):   
         self.assertIsInstance(self.vehicle_1, Vehicle, 'Не наследуется от Vehicle')
 
